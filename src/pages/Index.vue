@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <img class="greet-image" src="../../uploads/hello.svg" />
+    <img class="greet-image" src="../../uploads/profile_image_twitch-1.png" />
 
     <h2 class="mb-4">RoflMyPancakes</h2>
     <p>
