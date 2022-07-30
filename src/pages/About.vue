@@ -5,7 +5,7 @@
 
     <p>I play retro games from the 90s and early 00s. I strive to play games on real hardware, often with my original cartridges and CDs. I like to play retro DOS/9x PC games on my custom Windows 98 machine.</p>
 
-    <p>Currently the list of consoles I have working for streaming includes:<p>
+    <p>Currently the list of consoles I have working for streaming includes:</p>
     <ul>
       <li>Windows 98 machine (VGA/DVI) [DOS, 95, 98, XP]</li>
       <li>Analogue Mega SG (HDMI) [Genesis/Master System/GameGear]</li>
