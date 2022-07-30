@@ -12,7 +12,7 @@ fields:
   name: date
   label: date
   config:
-    export_format: yyyy-MM-dd HH:mm:ss ZZZZ
+    export_format: ''
 - type: text
   name: author
   label: author
