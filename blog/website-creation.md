@@ -1,5 +1,5 @@
 ---
-title: Website Creation With Gridsome, Netifly, and Forestry
+title: Website Creation with Gridsome, Netifly, and Forestry
 excerpt: Creating a Static Site as a DevOps Engineer
 date: 2021-07-30T21:00:00.000+00:00
 author: RoflMyPancakes
