@@ -1,0 +1,25 @@
+[[redirects]]
+  from = "/discord"
+  to = "https://discord.com/invite/UxC3vfHTKt"
+  status = 301
+
+[[redirects]]
+  from = "/twitter"
+  to = "https://twitter.com/RoflMyPancakes"
+  status = 301
+
+[[redirects]]
+  from = "/twitch"
+  to = "https://www.twitch.tv/roflmypancakes"
+  status = 301
+
+[[redirects]]
+  from = "/youtube"
+  to = "https://www.youtube.com/channel/UCGL_EQbxRqSegwLwijvW2_Q"
+  status = 301
+
+[[redirects]]
+  from = "/tiktok"
+  to = "https://www.tiktok.com/@roflmypancakes"
+  status = 301
+
