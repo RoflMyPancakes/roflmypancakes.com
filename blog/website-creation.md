@@ -1,9 +1,9 @@
 ---
 title: Website Creation
-excerpt: Foo bar test test
-date: 2021-07-29T17:00:00.000+00:00
+excerpt: Creating a Static Site as a DevOps Engineer
+date: 2021-07-30T21:00:00Z
 author: RoflMyPancakes
-image: "/uploads/emote_tier1.png"
+image: "/uploads/depositphotos_51819965_xl.jpg"
 
 ---
-This is atest
+Test
