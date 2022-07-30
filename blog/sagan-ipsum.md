@@ -4,7 +4,7 @@ excerpt: Hydrogen atoms colonies bits of moving fluff cosmic fugue gathered by g
   shores of the cosmic ocean.
 date: 2019-04-21T17:00:00.000+00:00
 author: Loke Carlsson
-image: ''
+image: "/uploads/emote_tier1.png"
 
 ---
 Billions upon billions Tunguska event galaxies rich in mystery decipherment billions upon billions. Bits of moving fluff rings of Uranus made in the interiors of collapsing stars from which we spring bits of moving fluff star stuff harvesting star light. The ash of stellar alchemy a mote of dust suspended in a sunbeam kindling the energy hidden in matter take root and flourish star stuff harvesting star light are creatures of the cosmos.
