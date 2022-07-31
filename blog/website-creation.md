@@ -4,6 +4,11 @@ excerpt: Creating a Static Site as a DevOps Engineer
 date: 2021-07-30T21:00:00.000+00:00
 author: RoflMyPancakes
 image: "/uploads/depositphotos_51819965_xl.jpg"
+tags:
+- blog
+- " devops"
+- vue
+- javascript
 
 ---
 When it comes to making a website I want to have all the bells and whistles with none of the complications of hosting a webserver or CI/CD pipeline or dealing with operational issues like certificate renewals or security.
