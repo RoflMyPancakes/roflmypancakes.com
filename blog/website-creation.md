@@ -46,16 +46,21 @@ Grant it access to your repository and set the following:
 
 Forestry saves its own config and the posts/pages you create, and images you upload, to the repository as commits.
 
-For example, this is how to create blog pages:
+To get started after signing up we can import the same repository as before:
+
+1. Click add site
+2. Select "Other" for Gridsome
+3. Select your git provider (e.g. Github)
+4. Sign in & allow
+5. Select your repository and branch
+
+With this repository configured we can create new blog posts:
 
 ![](/uploads/forestry-create.png)
 
-But blog pages are an arbitrary definition created by us. It is based on the **.forestry** folder in the repository. The [forestry blog template](https://github.com/RoflMyPancakes/roflmypancakes.com/blob/77136862dc93c1f6fe5bbe4190c1ed94ae1e4b39/.forestry/front_matter/templates/blog-post.yml) is what defines the inputs. The [vue blog post template](https://github.com/RoflMyPancakes/roflmypancakes.com/blob/77136862dc93c1f6fe5bbe4190c1ed94ae1e4b39/src/templates/BlogPost.vue) is what uses those inputs to make a common page layout.
+Blog pages are an arbitrary definition created by us. It is based on the **.forestry** folder in the repository. The [forestry blog template](https://github.com/RoflMyPancakes/roflmypancakes.com/blob/77136862dc93c1f6fe5bbe4190c1ed94ae1e4b39/.forestry/front_matter/templates/blog-post.yml) is what defines the inputs. The [vue blog post template](https://github.com/RoflMyPancakes/roflmypancakes.com/blob/77136862dc93c1f6fe5bbe4190c1ed94ae1e4b39/src/templates/BlogPost.vue) is what uses those inputs to make a common page layout. Where blog posts are stored (in our case, in the **blog** folder in the repository) is defined in the sidebar:
 
-Where blog posts are stored (in our case, in the **blog** folder in the repository) is defined in the sidebar:
-
-![](/uploads/forestry-sidebar.png)
-
+![](/uploads/forestry-sidebar.png)  
 And ultimately that config too is saved to the repository [**settings.yml** as defined here.](https://github.com/RoflMyPancakes/roflmypancakes.com/blob/719a361e8abf10c1705f3c6074cc0b174c2cfe7b/.forestry/settings.yml#L12-L18)
 
 Everything we change is synced back to the repository as commits.
