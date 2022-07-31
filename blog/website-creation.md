@@ -1,5 +1,5 @@
 ---
-title: Website Creation with Gridsome, Netifly, and Forestry
+title: Website Creation with Gridsome, Netlify, and Forestry
 excerpt: Creating a Static Site as a DevOps Engineer
 date: 2021-07-30T21:00:00.000+00:00
 author: RoflMyPancakes
@@ -10,17 +10,17 @@ When it comes to making a website I want to have all the bells and whistles with
 
 My search led me to [Gridsome](https://gridsome.org/ "Gridsome") - a Vue.js & GraphQL powered framework for static site generation. There's many starter examples that show how to connect various technologies to get your project started.
 
-This [example](https://github.com/loke-dev/gridsome-starter-bootstrap "Gridsome Starter Bootstrap") uses Forestry and Netifly to make it really easy (and free) to deploy a website. This uses free plans for everything from hosting, CMS, CDN, DNS, to CI/CD, edge functions, SSL/certificates and more.
+This [example](https://github.com/loke-dev/gridsome-starter-bootstrap "Gridsome Starter Bootstrap") uses Forestry and Netlify to make it really easy (and free) to deploy a website. This uses free plans for everything from hosting, CMS, CDN, DNS, to CI/CD, edge functions, SSL/certificates and more.
 
-# **Netifly**
+# **Netlify**
 
-[Netifly ](https://www.netlify.com/pricing/ "Netifly")manages our domains, DNS records, hosts our website, acts as a CDN, and performs CI/CD to build and deploy our website as changes are committed. It also offers edge functions to do things like forward pages to other domains (similar to Rebrandly style shortcuts on a custom domain).
+[Netlify ](https://www.netlify.com/pricing/ "Netlify")manages our domains, DNS records, hosts our website, acts as a CDN, and performs CI/CD to build and deploy our website as changes are committed. It also offers edge functions to do things like forward pages to other domains (similar to Rebrandly style shortcuts on a custom domain).
 
 ### Setting Up DNS
 
-You can either register a domain through Netifly or change your nameservers over for Netifly to manage them.
+You can either register a domain through Netlify or change your nameservers over for Netlify to manage them.
 
-In my case I registered roflmypancakes.com through Google Domains and set the nameservers to point to Netifly.
+In my case I registered roflmypancakes.com through Google Domains and set the nameservers to point to Netlify.
 
 ### Copying the Repository & Setting Up CI
 
@@ -40,7 +40,7 @@ Grant it access to your repository and set the following:
 
 # **Forestry**
 
-Netifly handles taking changes and deploying them as soon as possible based on what it sees in source control (e.g.: Github).
+Netlify handles taking changes and deploying them as soon as possible based on what it sees in source control (e.g.: Github).
 
 [Forestry ](https://forestry.io/pricing/ "Forestry")provides a CMS (content management system) on top of that source control. It's all based around templates and you can define the inputs through Forestry.
 
@@ -62,4 +62,4 @@ And ultimately that config is saved to the repository [**settings.yml** as defin
 
 As changes are applied in **Forestry**, commits are generated to the repository, and builds are triggered in **Netlify.** These builds are published and the website is updated for all to see.
 
-Both the Forestry and Netifly plans I use are free. A **.com** domain costs about $12/year or $1/month.
+Both the Forestry and Netlify plans I use are free. A **.com** domain costs about $12/year or $1/month.
