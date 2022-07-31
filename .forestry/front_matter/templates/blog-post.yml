@@ -19,3 +19,8 @@ fields:
 - type: file
   name: image
   label: image
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+  description: Tags for this post.
