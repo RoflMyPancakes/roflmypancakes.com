@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1 class="my-4 mb-5">Blog</h1>
+    <h1 class="my-4 mb-5">Games</h1>
 
     <g-link
       :to="item.node.path"
@@ -23,7 +23,7 @@
 
 <page-query>
 query Blog {
-	posts: allBlogPost(filter: { tags: { contains: "blog" }}, sortBy: "date") {
+	posts: allBlogPost(filter: { tags: { contains: "games" }}, sortBy: "date") {
     edges {
       node {
         id

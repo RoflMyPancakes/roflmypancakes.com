@@ -13,7 +13,7 @@ export default function (Vue, { router, head, isClient }) {
   Vue.mixin(checkIfMobile)
   Vue.filter("formatDate", function (value) {
     if (value) {
-      return moment(String(value)).format("dddd MMMM d, yyyy")
+      return moment(String(value)).format("dddd MMMM D, yyyy")
     }
   });
 }
