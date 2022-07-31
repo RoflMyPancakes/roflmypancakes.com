@@ -4,7 +4,7 @@
 
     <h2 class="mb-4">RoflMyPancakes</h2>
     <p>
-      This is the beginnings of my website to go along with my Twitch Stream.
+      This is the beginnings of my website to go along with my Twitch Stream...
     </p>
 
   </Layout>

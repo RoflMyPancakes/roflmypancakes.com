@@ -45,4 +45,8 @@ body {
   width: 90vw;
   margin: 0 auto;
 }
+
+#content-wrapper img {
+  max-width: 100%;
+}
 </style>
