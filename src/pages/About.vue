@@ -35,8 +35,8 @@ export default {
 <style lang="scss" scoped>
 .about-image {
   display: block;
-  margin: auto;
-  width: 90%;
+  margin: auto; 
+  width: 250px;
   max-width: 500px;
   padding-bottom: 50px;
 }
