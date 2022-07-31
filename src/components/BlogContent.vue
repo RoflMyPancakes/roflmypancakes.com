@@ -20,4 +20,8 @@ h3
   font-size: 1.5rem
 h4, h5, h6 
   font-size: 1.15rem
+
+.blog-content img { 
+  max-width: 100% !important;
+}
 </style>
