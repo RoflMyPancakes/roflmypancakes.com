@@ -46,20 +46,28 @@ Netlify handles taking changes and deploying them as soon as possible based on w
 
 Forestry saves the config and the posts/pages you create, and images you upload, to the repository as commits.
 
-For example, this is going to create blog pages:
+For example, this is how to create blog pages:
 
 ![](/uploads/forestry-create.png)
 
-How it does this is based on the **.forestry** folder in the repository. The [blog template is defined here.](https://github.com/RoflMyPancakes/roflmypancakes.com/blob/77136862dc93c1f6fe5bbe4190c1ed94ae1e4b39/.forestry/front_matter/templates/blog-post.yml)
+But blog pages are an arbitrary definition created by us. It is based on the **.forestry** folder in the repository. The [forestry blog template](https://github.com/RoflMyPancakes/roflmypancakes.com/blob/77136862dc93c1f6fe5bbe4190c1ed94ae1e4b39/.forestry/front_matter/templates/blog-post.yml) is what defines the inputs. The [vue blog post template](https://github.com/RoflMyPancakes/roflmypancakes.com/blob/77136862dc93c1f6fe5bbe4190c1ed94ae1e4b39/src/templates/BlogPost.vue) is what uses those inputs to make a common page layout.
 
-Where blog posts are stored is defined in the sidebar:
+Where blog posts are stored (in our case, in the **blog** folder in the repository) is defined in the sidebar:
 
 ![](/uploads/forestry-sidebar.png)
 
-And ultimately that config is saved to the repository [**settings.yml** as defined here.](https://github.com/RoflMyPancakes/roflmypancakes.com/blob/719a361e8abf10c1705f3c6074cc0b174c2cfe7b/.forestry/settings.yml#L12-L18)
+And ultimately that config too is saved to the repository [**settings.yml** as defined here.](https://github.com/RoflMyPancakes/roflmypancakes.com/blob/719a361e8abf10c1705f3c6074cc0b174c2cfe7b/.forestry/settings.yml#L12-L18)
 
-# **Result**
+Everything we change is synced back to the repository as commits.
+
+![](/uploads/commits.png)
+
+As I upload images using this CMS to put into this post they are committed to the repository as well at the [configured uploads folder](https://github.com/RoflMyPancakes/roflmypancakes.com/blob/719a361e8abf10c1705f3c6074cc0b174c2cfe7b/.forestry/settings.yml#L19).
+
+# **Connecting the Dots**
 
 As changes are applied in **Forestry**, commits are generated to the repository, and builds are triggered in **Netlify.** These builds are published and the website is updated for all to see.
 
-Both the Forestry and Netlify plans I use are free. A **.com** domain costs about $12/year or $1/month.
+Both the Forestry and Netlify plans I use are free. 
+
+A **.com** domain costs about $12/year or $1/month.
