@@ -10,11 +10,13 @@ When it comes to making a website I want to have all the bells and whistles with
 
 My search led me to [Gridsome](https://gridsome.org/ "Gridsome") - a Vue.js & GraphQL powered framework for static site generation. There's many starter examples that show how to connect various technologies to get your project started.
 
-This [example](https://github.com/loke-dev/gridsome-starter-bootstrap "Gridsome Starter Bootstrap") uses Forestry and Netlify to make it really easy (and free) to deploy a website. This uses free plans for everything from hosting, CMS, CDN, DNS, to CI/CD, edge functions, SSL/certificates and more.
+This [example](https://github.com/loke-dev/gridsome-starter-bootstrap "Gridsome Starter Bootstrap") uses Forestry and Netlify to make it really easy (and free) to deploy a website. 
 
 # **Netlify**
 
-[Netlify ](https://www.netlify.com/pricing/ "Netlify")manages our domains, DNS records, hosts our website, acts as a CDN, and performs CI/CD to build and deploy our website as changes are committed. It also offers edge functions to do things like forward pages to other domains (similar to Rebrandly style shortcuts on a custom domain).
+[Netlify ](https://www.netlify.com/pricing/ "Netlify")manages our domains, DNS records, hosts our website, acts as a CDN, and performs CI/CD to build and deploy our website as changes are committed. It also offers edge functions to do things like forward pages for custom URL shortening. 
+
+Netlify handles taking changes and deploying them as soon as possible based on what it sees in source control (e.g.: Github).
 
 ### Setting Up DNS
 
@@ -24,13 +26,13 @@ In my case I registered roflmypancakes.com through Google Domains and set the na
 
 ### Copying the Repository & Setting Up CI
 
-Starting with [https://github.com/RoflMyPancakes/roflmypancakes.com](https://github.com/RoflMyPancakes/roflmypancakes.com "RoflMyPancakes.com Github") forked/cloned:
+Starting with [this repository](https://github.com/RoflMyPancakes/roflmypancakes.com) forked/cloned:
 
 Click **Add new site**
 
 ![](/uploads/netifly-new.png)
 
-**Select your source code repository (in my case, github)**
+**Select your source code repository (e.g. Github)**
 
 ![](/uploads/netifly-github.png)
 
@@ -40,11 +42,9 @@ Grant it access to your repository and set the following:
 
 # **Forestry**
 
-Netlify handles taking changes and deploying them as soon as possible based on what it sees in source control (e.g.: Github).
+[Forestry ](https://forestry.io/pricing/ "Forestry")provides a CMS (content management system) on top of that source control. 
 
-[Forestry ](https://forestry.io/pricing/ "Forestry")provides a CMS (content management system) on top of that source control. It's all based around templates and you can define the inputs through Forestry.
-
-Forestry saves the config and the posts/pages you create, and images you upload, to the repository as commits.
+Forestry saves its own config and the posts/pages you create, and images you upload, to the repository as commits.
 
 For example, this is how to create blog pages:
 
