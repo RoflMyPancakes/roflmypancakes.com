@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <b-navbar class="p-0" toggleable="md" type="light">
+    <b-navbar class="p-2" toggleable="md" type="light">
         <b-navbar-brand>
         <g-link class="logo-home logo-desktop mr-2" to="/"><img class="logo-image" alt="logo" src="../assets/images/logo.png"></g-link>
         <g-link class="logo-home logo-desktop" to="/">{{ $static.metadata.siteName }}</g-link>
@@ -36,6 +36,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  background-color: #E9851B;
 }
 
 .logo-home {
