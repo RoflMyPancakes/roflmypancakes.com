@@ -1,15 +1,26 @@
 <template>
-  <footer class="page-footer font-small teal py-4">
-    <div class="footer-copyright text-center">Designed and coded by:
-      <a target="_blank" rel="noopener" href="https://www.roflmypancakes.com/"> RoflMyPancakes</a>
+  <footer class="page-footer font-small teal py-2">
+    <div class="footer-copyright text-center">
+      &copy; Copyright {{currentYear}} RoflMyPancakes.com
     </div>
   </footer>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      currentYear: new Date().getFullYear(),
+    };
+  }
+};
+</script>
+
 
 <style lang="scss">
 footer {
   width: 100%;
   margin-top: 6rem;
-  background-color: #f5f5f5;
+  background-color: #F7EED2;
 }
 </style>

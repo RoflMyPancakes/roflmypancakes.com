@@ -35,6 +35,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+// .blog-post{
+//   &:hover {
+//     text-decoration: none;
+//   }
+// }
+
 .media {
   img {
     width: auto;
